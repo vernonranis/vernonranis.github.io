@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- CSS stuff -->
+  <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
 
   <!-- font stuff -->
@@ -17,9 +18,11 @@
 </head>
 
 <body id="home">
-  <header class="hero">
+  <header class="hero bg-1">
     <div class="navbar top" id="navbar">
-      <h1 class="logo"><span class="text-primary">&lt;VR&gt;</span></h1>
+      <a class="logo" href="#home">
+        <h1>&lt;<span class="main-white-text">VR</span>&gt;</h1>
+      </a>
       <nav>
         <ul>
           <li><a href="#home">Home</a></li>
@@ -40,11 +43,37 @@
     </div>
   </header>
   <main>
-    <section id="about">
+    <section id="about" class="bg-2 flex-columns">
+      <div class="row">
+        <div class="column">
+          <h2>About Me</h2>
+          <p>Hi! I'm Vernon, and I am a Fullstack Web Developer with a preference for Frontend Development. I have a
+            passion for building clean and minimalist web applications with intuitive functionality. I enjoy the process
+            of turning ideas into reality using Javascript and the MERN (MongoDB, Express, React, and Node) stack. I am
+            open for work and determined to transition my career and become a Web Developer.
+            <br><br>
+            Prior to my decision to change careers, I was previously a team leader handling 15 people under me and
+            talking to clients for updates. The client we had was a fast paced startup that is constantly evolving
+            because of COVID since they belong in the nursing agency industry. Their growth was exponential in a very
+            short amount of time.
+            <br><br>
+            That experience made me realize how important scalability and automation for business growth. If the
+            business cannot meet the demand then that is a loss opportinity.
+            <br><br>
+            That is why right now I changed career to become a Fullstack Web Developer to offer business solutions that
+            can possibly to solve client problems and needs.
+          </p>
+        </div>
+        <div class="column">
+          <img class="profile-pic" src="/img/port-pic.png" alt="my-profile-picture">
+        </div>
+      </div>
     </section>
-    <section id="skills">
+    <section id="skills" class="bg-1 flex-columns reverse-flex">
+      <h2>Skills</h2>
     </section>
-    <section id="contact">
+    <section id="contact" class="bg-2 flex-columns">
+      <h2>Contact</h2>
     </section>
   </main>
   <footer></footer>
