@@ -51,6 +51,7 @@ h2 {
 }
 
 h3 {
+  font-weight: bold;
   font-size: 1.5em;
 }
 
@@ -169,10 +170,49 @@ p {
   padding: 0 2em;
 }
 
+.whole-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-wrapper {
+  width: 90vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid white; */
+}
+
 .column h2 {
   padding: 2em 0;
 }
 
 .profile-pic {
   border-radius: 50%;
+}
+
+.iconbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 2.7em;
+  /* border: 1px solid white; */
+  width: 12em;
+  height: 15em;
+}
+
+.iconbox > img {
+  background-color: var(--text-color);
+  width: 4em;
+  height: 4em;
+  border-radius: 3em;
+  margin-top: 1em;
+}
+
+.iconbox > * {
+  padding: 0.3em 0.3em;
 }
