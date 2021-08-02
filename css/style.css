@@ -1,37 +1,8 @@
-/* Syntax Colors
-#c3a6ff Keywords, constants, template literals
-#ffd580 Functions, classes, object literal keys
-#ffae57 Constants, operators
-#bae67e Strings, markdown headings
-#5ccfe6 Special keywords, classes, markdown code blocks
-#a2aabc Variables, property names, tags
-
-UI Colors
-#171c28	Workbench background
-#1d2433	Editor background
-#2f3b54	Highlight, widgets, panels
-#6679a4	Dividers, subtle UI elements
-#8695b7	Status bar text, buttons, etc
-#d7dce2	Active text, anything that should be white
-#ffcc66	Accent, list tree titles, badges, etc
-#bae67e	Addition highlights
-#ef6b73	Deletion highlights, errors, warnings
-#5ccfe6	Modified highlights */
-
-:root {
-  --primary-color: #ffd580;
-  /* --primary-color: #ffae57; */
-  --background-color-1: #1d2433;
-  --background-color-2: #171c28;
-  --text-color: #d7dce2;
-  --highlight: #2f3b54;
-  --button-bgcol: #ffcc66;
-}
-
 body {
   font-family: 'Chakra Petch', sans-serif;
   color: var(--text-color);
   line-height: 1.6;
+  /* width: 100%; */
 }
 
 ul {
@@ -48,7 +19,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 h3 {
@@ -58,6 +29,7 @@ h3 {
 
 p {
   font-size: 1.3em;
+  margin: 10px 0;
 }
 
 section {
@@ -73,18 +45,16 @@ a {
   line-height: 1.2;
 }
 
-p {
-  margin: 10px 0;
-}
-
 .bg-1 {
   background-color: var(--background-color-1);
   height: 100vh;
+  width: 100%;
 }
 
 .bg-2 {
   background-color: var(--background-color-2);
   height: 100vh;
+  width: 100%;
 }
 
 .navbar {
@@ -92,7 +62,6 @@ p {
   align-items: center;
   justify-content: space-between;
   color: var(--primary-color);
-  /* opacity: 0.8; */
   width: 100%;
   height: 70px;
   position: fixed;
@@ -132,9 +101,10 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   justify-content: center;
   height: 100%;
-  padding: 0 20px;
+  padding: 0 1.5em;
 }
 
 .header-content * {
@@ -143,10 +113,6 @@ p {
 
 .header-content h1 {
   opacity: 0.5;
-}
-
-.header-content p {
-  font-size: 20px;
 }
 
 .main-white-text {
@@ -168,7 +134,7 @@ p {
   align-items: center;
   justify-content: center;
   /* border: 1px solid white; */
-  padding: 0 2em;
+  padding: 0 1.5em;
 }
 
 .whole-page {
@@ -182,7 +148,8 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid white; */
+  flex-wrap: wrap;
+  padding: 0 1.5em;
 }
 
 .column h2 {
@@ -196,12 +163,11 @@ p {
 .iconbox {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   text-align: center;
   flex-wrap: wrap;
   flex-direction: column;
   margin: 2.7em;
-  /* border: 1px solid white; */
   width: 12em;
   height: 15em;
 }
@@ -220,14 +186,14 @@ p {
 
 .contact-form {
   /* border: 1px solid white; */
-  max-width: 900px;
-  width: 100%;
+  max-width: 800px;
+  width: 90%;
   height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 1em;
+  padding: 1.5em;
 }
 
 .callback-form {
@@ -254,6 +220,7 @@ textarea {
 
 .callback-form textarea {
   height: 10em;
+  resize: none;
 }
 
 .contact-form .btn,

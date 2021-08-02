@@ -1,0 +1,35 @@
+a {
+  font-size: 1em;
+}
+
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.5em;
+}
+h3 {
+  font-size: 1.1em;
+}
+p {
+  font-size: 1em;
+  margin: 7px 0;
+}
+
+.iconbox {
+  margin: 1.5em;
+  width: 8em;
+  height: 10em;
+}
+
+.iconbox > img {
+  background-color: var(--text-color);
+  width: 2em;
+  height: 2em;
+  border-radius: 3em;
+  margin-top: 1em;
+}
+
+.iconbox > * {
+  padding: 0.3em 0.3em;
+}
