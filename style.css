@@ -25,6 +25,7 @@ UI Colors
   --background-color-2: #171c28;
   --text-color: #d7dce2;
   --highlight: #2f3b54;
+  --button-bgcol: #ffcc66;
 }
 
 body {
@@ -215,4 +216,55 @@ p {
 
 .iconbox > * {
   padding: 0.3em 0.3em;
+}
+
+.contact-form {
+  /* border: 1px solid white; */
+  max-width: 900px;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+}
+
+.callback-form {
+  width: 100%;
+}
+
+.callback-form label {
+  display: block;
+  margin-bottom: 1em;
+}
+
+.callback-form .form-control {
+  margin-bottom: 1em;
+}
+
+.callback-form input,
+textarea {
+  width: 100%;
+}
+
+.callback-form input {
+  height: 2em;
+}
+
+.callback-form textarea {
+  height: 10em;
+}
+
+.contact-form .btn,
+input,
+textarea {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 2em;
+}
+.contact-form .btn {
+  background: var(--button-bgcol);
+  color: var(--highlight);
+  cursor: pointer;
+  font-weight: bold;
 }
