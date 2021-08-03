@@ -93,6 +93,10 @@ a {
   font-weight: 400;
 }
 
+.toggler {
+  display: none;
+}
+
 .hero {
   position: relative;
 }
