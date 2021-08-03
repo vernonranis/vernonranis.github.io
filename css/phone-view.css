@@ -48,10 +48,13 @@ p {
   width: 2.5rem;
   height: 2.5rem;
   display: unset;
+  margin: 0.85rem;
   opacity: 0;
 }
 
 .hamburger {
+  /* border: 1px solid red; */
+  margin: 0.65rem;
   position: absolute;
   top: 0;
   right: 0;
@@ -82,14 +85,14 @@ p {
   content: '';
   position: absolute;
   z-index: 1;
-  top: -10px;
+  top: -7px;
   width: 100%;
   height: 2px;
   background: inherit;
 }
 
 .hamburger > div::after {
-  top: 10px;
+  top: 7px;
 }
 /* skills */
 

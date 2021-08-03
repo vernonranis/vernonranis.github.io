@@ -69,12 +69,14 @@ a {
 }
 
 .navbar.top {
+  /* background: green; */
   background: transparent;
 }
 
 .navbar a {
   padding: 10px 20px;
   margin: 0 5px;
+  /* border: 1px solid blue; */
 }
 
 .navbar a:hover {
