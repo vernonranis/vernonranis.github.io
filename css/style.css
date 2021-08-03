@@ -1,3 +1,7 @@
+:root {
+  --menu-speed: 0.75s;
+}
+
 body {
   font-family: 'Chakra Petch', sans-serif;
   color: var(--text-color);
@@ -96,7 +100,7 @@ a {
 }
 
 .toggler {
-  display: none;
+  visibility: hidden;
 }
 
 .hero {
