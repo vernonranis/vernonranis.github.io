@@ -176,9 +176,9 @@ p {
 /* skills */
 
 .iconbox {
-  margin: 0.2em;
-  width: 4em;
-  height: 8.5em;
+  margin: 0.5em;
+  width: 3em;
+  height: 3em;
 }
 
 .iconbox > img {
