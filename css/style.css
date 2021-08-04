@@ -49,6 +49,10 @@ a {
   line-height: 1.2;
 }
 
+::selection {
+  background: var(--highlight);
+}
+
 .bg-1 {
   background-color: var(--background-color-1);
   height: 100vh;
