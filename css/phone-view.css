@@ -147,34 +147,36 @@ p {
   transition: all 0.4s ease;
 }
 
-.menu > div > div > nav {
+.menu > div > div {
   text-align: center;
   max-width: 90vw;
   max-height: 100vh;
+  opacity: 1;
   transition: opacity 0.4s ease;
 }
 
-.menu > div > div > nav > ul {
+.menu > div > div > ul {
   display: flex;
   flex-direction: column;
 }
 
-.menu > div > div > nav > ul > li {
+.menu > div > div > ul > li {
   list-style: none;
   color: var(--text-color);
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: 1rem;
 }
 
-.menu > div > div > nav > ul > li > a {
+.menu > div > div > ul > li > a {
   color: inherit;
   text-decoration: none;
   transition: color 0.4s ease;
 }
 
-.menu > div > div > nav > ul > li > a:hover {
+.menu > div > div > ul > li > a:hover {
   color: var(--primary-color);
 }
+
 /* skills */
 
 .iconbox {
@@ -206,8 +208,9 @@ p {
 
 .contact-form .btn,
 input,
-textarea {
-  font-size: 1.5em;
+textarea,
+.download-resume {
+  font-size: 1em;
 }
 
 .contact-form .btn {

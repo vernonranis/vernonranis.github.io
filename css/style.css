@@ -176,6 +176,13 @@ footer {
   flex-direction: column;
 }
 
+.download-resume {
+  padding: 0.7rem 2rem;
+  margin: 0.7rem;
+  background-color: var(--primary-color);
+  color: var(--background-color-1);
+}
+
 .skills-wrapper {
   width: 90vw;
   height: 90vh;
@@ -184,6 +191,12 @@ footer {
   align-items: center;
   flex-wrap: wrap;
   padding: 0 1.5em;
+}
+
+.txt-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .column h2 {
@@ -259,7 +272,8 @@ textarea {
 
 .contact-form .btn,
 input,
-textarea {
+textarea,
+.download-resume {
   font-family: 'Chakra Petch', sans-serif;
   font-size: 2em;
 }
