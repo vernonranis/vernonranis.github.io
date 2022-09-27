@@ -1,0 +1,30 @@
+Blog setup
+    - Automate Header metadata
+    - setup Jenkins CI/CD
+    - Theme
+    - Publish to Github Pages
+    - bi-directional sync with monica and google contacts & calendar
+    - replace pelican with matrial for mkdocs(https://squidfunk.github.io/mkdocs-material/)
+
+Blog Post:
+    - How to Create a VM in Virtualbox
+    - How to Automate User Creation
+    - monica docker installation
+    - How to create virtualenv in python
+    - check windows certificates (pa check if ano yung info sa internet options > content >certificates)
+    - download screen recording in ms teams
+    - shotcut trim video
+    - backup and restore wsl2
+    - sphinx python documentation generation tool OR Django-Wiki
+    - virtualbox provisioning with vagrant
+    - setup Jenkins CI/CD for pelican
+    - connect dockerized frontend to local DB(mysql, postgres, mongodb, redis)
+    - fire fly 3 self-hosted personal finance manager
+    - gitlab - source-control manager
+    - ghost blogging platform: https://hub.docker.com/_/ghost, https://github.com/TryGhost/Ghost
+    - vaultwarden - self hosted password manager - https://github.com/dani-garcia/vaultwarden
+    - self hosted notetaking app - https://github.com/laurent22/joplin
+
+
+RTFM:
+    - https://squidfunk.github.io/mkdocs-material/setup/setting-up-a-blog/#built-in-blog-plugin
