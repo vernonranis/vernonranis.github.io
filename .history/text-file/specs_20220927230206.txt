@@ -1,0 +1,2 @@
+specs:
+	Categories: micro-tuts, tutorial, course
