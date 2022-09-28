@@ -1,0 +1,17 @@
+# @Author: Vernon Ranis
+# @Date:   2022-09-27 23:02:32
+# @Last Modified by:   Vernon Ranis
+# @Last Modified time: 2022-09-28 09:44:34
+site_name: My Docs
+
+theme:
+  name: material
+
+plugins:
+  - blog:
+    blog_dir: .
+
+
+nav:
+  - Blog:
+    - blog/index.md

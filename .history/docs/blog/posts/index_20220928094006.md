@@ -1,8 +1,4 @@
----
-draft: true
-categories: kubernetes
----
-# Welcome to my Page
+# What is a Kubernetes Sidecar
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 

@@ -2,9 +2,15 @@
 draft: true
 categories: kubernetes
 ---
-# Welcome to my Page
+# What is a Kubernetes Sidecar. Everything you need to know
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Intro: Start with the definition. Keep it short. Add a table of contents with jump links.
+
+For the title you start with "what is/are". Add context.
+
+In this guide, you'll learn:
+ * What is a kubernetes sidecar
+ * 
 
 ## Commands
 
