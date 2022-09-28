@@ -3,6 +3,8 @@
 # @Last Modified by:   Vernon Ranis
 
 site_name: Vernon Ranis
+=======
+
 
 theme:
   name: material
@@ -17,3 +19,7 @@ plugins:
 nav:
   - Blog:
     - blog/posts/what-is-a-kubernetes-sidecar.md
+
+nav:
+  - Blog:
+    - blog/index.md
