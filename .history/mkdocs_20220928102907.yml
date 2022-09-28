@@ -1,0 +1,21 @@
+# @Author: Vernon Ranis
+# @Date:   2022-09-27 23:02:32
+# @Last Modified by:   Vernon Ranis
+# @Last Modified time: 2022-09-28 10:29:07
+site_name: My Docs
+
+theme:
+  name: material
+
+plugins:
+  - blog:
+      blog_dir: . # this is for standalone blog setup
+      #blog_dir: path/to/folder # this is for subdirectory
+  - search
+  - tags
+
+
+nav:
+  blog:
+    posts:
+      - what-is-a-kubernetes-sidecar.md

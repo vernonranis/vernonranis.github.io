@@ -1,0 +1,22 @@
+# @Author: Vernon Ranis
+# @Date:   2022-09-27 23:02:32
+# @Last Modified by:   Vernon Ranis
+# @Last Modified time: 2022-09-28 09:54:12
+site_name: My Docs
+
+theme:
+  name: material
+
+plugins:
+  - meta
+  - blog:
+      blog_dir: . # this is for standalone blog setup
+      #blog_dir: path/to/folder # this is for subdirectory
+  - search
+  - tags
+
+
+nav:
+  - Blog:
+    - blog/index.md
+    - blog/posts/

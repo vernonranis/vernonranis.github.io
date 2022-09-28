@@ -1,14 +1,12 @@
-<<<<<<< HEAD
 ---
 draft: true
 categories: kubernetes
 ---
-# Welcome to my Page
-=======
-# Welcome to MkDocs
->>>>>>> 7ffac1adf17c5da310c4c6bda93fabfb837433da
+# What is a Kubernetes Sidecar. Everything you need to know
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Intro: Start with the definition. Keep it short. Add a table of contents with jump links.
+
+For the title you start with "what is/are". Add context.
 
 ## Commands
 
