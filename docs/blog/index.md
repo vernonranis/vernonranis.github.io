@@ -1,12 +1,4 @@
-<<<<<<< HEAD
----
-draft: true
-categories: kubernetes
----
-# Welcome to my Page
-=======
 # Welcome to MkDocs
->>>>>>> 7ffac1adf17c5da310c4c6bda93fabfb837433da
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
